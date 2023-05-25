@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  const URLBASE = "http://localhost/inscription/"
-  const backNestUrl = 'http://localhost:4300/'
+  const URLBASE = "http://162.254.35.36/inscription/"
+  const backNestUrl = 'http://162.254.35.36:4300/'
 
   getToken();
   getAllExercice();

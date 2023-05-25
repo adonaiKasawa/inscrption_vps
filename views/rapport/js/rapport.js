@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const URLBASE = "http://localhost/inscription/";
+  const URLBASE = "http://162.254.35.36/inscription/";
   // faire un view de l'etudiant voir ses information tout entiere
   var datatable;
   $(document).on('click', '.view_data', function (e) {

@@ -8,7 +8,7 @@
 <script src="<?=URL?>public/plugins/jquery/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    const URLBASE = "http://localhost/inscription/";
+    const URLBASE = "http://162.254.35.36/inscription/";
     lastTicket();
     setInterval(() => {
         lastTicket()

@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  const URLBASE = "http://localhost/inscription/";
-  const backNestUrl = 'http://localhost:4300/'
-  const frontReactUrl = 'http://localhost:3000/'
+  const URLBASE = "http://162.254.35.36/inscription/";
+  const backNestUrl = 'http://162.254.35.36:4300/'
+  const frontReactUrl = 'http://162.254.35.36:3000/'
   const access_token = localStorage.getItem('access_token');
   const exerciceEncours = localStorage.getItem('exerciceEncours');
   getCours();

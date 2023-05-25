@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://162.254.35.36/inscription_vps/');
+define('URL', 'http://162.254.35.36/inscription/');
 define('LOGIN', 'http://162.254.35.36:3000/login');
 define('LIBS', 'libs/');
 
@@ -18,8 +18,8 @@ define('SECRET_KEY_RT', '84df56g4s65d4gb56xfdzerdfdgs');
 
 // SECRET_KEY = "jkqsdklfgkoijhqsjkdlfmgtoireujs,dncdhfjvnd,sxposkzddxùcd65q3251d686fc321c653"
 
-// define('URL', 'http://localhost/inscription/');
-// define('LOGIN', 'http://localhost:3000/login');
+// define('URL', 'http://162.254.35.36/inscription/');
+// define('LOGIN', 'http://162.254.35.36:3000/login');
 // define('LIBS', 'libs/');
 
 // define('DB_TYPE', 'postgres');

@@ -1,3 +1,3 @@
 $(document).ready(function(){
-    const URLBASE = "http://localhost/level3/"
+    const URLBASE = "http://162.254.35.36/level3/"
 });
