@@ -1,15 +1,15 @@
 <?php
 
-define('URL', 'http://localhost/inscription/');
-define('LOGIN', 'http://localhost:3000/login');
+define('URL', 'http://162.254.35.36/inscription_vps/');
+define('LOGIN', 'http://162.254.35.36:3000/login');
 define('LIBS', 'libs/');
 
 define('DB_TYPE', 'pgsql');
 define('DB_HOST', 'localhost');
 define('DB_PORT', '5432');
 define('DB_NAME', 'level3');
-define('DB_USER', 'postgres');
-define('DB_PASS', '201123');
+define('DB_USER', 'admin');
+define('DB_PASS', 'admin');
 
 
 define('SECRET_KEY_AT', 'sdfghbfdqsfgg5gc458xcv4n58nb');
