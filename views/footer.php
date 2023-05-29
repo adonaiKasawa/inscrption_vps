@@ -68,7 +68,7 @@
 <script src="<?= URL ?>public/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?= URL ?>public/dist/js/pages/dashboard2.js"></script>
-<script src="./views/auth/js/index.js"></script>
+<script src="<?= URL ?>views/auth/js/index.js"></script>
 <script>
   $(function(){
     $('.select2').select2();
@@ -79,7 +79,7 @@
 <?php
 if (isset($this->js)) {
   foreach ($this->js as $js) {
-    echo '<script src="'.URL.'"/views/' . $js . '"></script>';
+    echo "<script src='".URL."/views/$js'></script>";
   }
 }
 ?>
