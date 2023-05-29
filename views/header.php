@@ -7,20 +7,20 @@
   <title><?= $this->title ?></title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <link rel="stylesheet" href="./public/plugins/fontawesome-free/css/all.min.css">
-  <link rel="stylesheet" href="./public/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <link rel="stylesheet" href="./public/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
-  <link rel="stylesheet" href="./public/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
-  <link rel="stylesheet" href="./public/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
-  <link rel="stylesheet" href="./public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  <link rel="stylesheet" href="./public/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
   <!-- SweetAlert2 -->
-  <link rel="stylesheet" href="./public/sweetalert/Resources/Public/Assets/sweetalert2.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/sweetalert/Resources/Public/Assets/sweetalert2.min.css">
   <!-- Toastr -->
-  <link rel="stylesheet" href="./public/plugins/toastr/toastr.min.css">
-  <link rel="stylesheet" href="./public/plugins/select2/css/select2.min.css">
-  <link rel="stylesheet" href="./public/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
-  <link rel="stylesheet" href="./public/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/toastr/toastr.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+  <link rel="stylesheet" href="<?= URL ?>public/dist/css/adminlte.min.css">
 </head>
 
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
